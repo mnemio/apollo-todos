@@ -14,6 +14,7 @@ components consisting of the Apollo 2.1 Query and Mutation components. This incl
 composed of both a Query and a Mutation combined, which were originally in a single Todos component in the
 tutorial and then broken apart into the following:
 
+```
 client/
     src/
         apollo-containers/
@@ -24,6 +25,7 @@ client/
         components/
             Todo.js
             Todos.js
+```
 
 This establishes a design pattern by which the presentational components are pure React without any dependence
 on Apollo. The apollo-container components are the aggregators that make use of these pure React components, which
